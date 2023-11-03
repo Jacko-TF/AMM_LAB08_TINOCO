@@ -10,7 +10,7 @@ namespace AMM_LAB08_TINOCO
         {
             InitializeComponent();
 
-            MainPage = new BatteryDemo();
+            MainPage = new NavigationPage( new MainPage());
         }
 
         protected override void OnStart()

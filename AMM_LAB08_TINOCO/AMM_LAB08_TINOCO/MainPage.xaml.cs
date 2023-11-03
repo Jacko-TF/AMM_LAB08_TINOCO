@@ -13,6 +13,12 @@ namespace AMM_LAB08_TINOCO
         public MainPage()
         {
             InitializeComponent();
+
+            Item1.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new BatteryDemo());
+            };
+
         }
     }
 }
