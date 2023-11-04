@@ -10,6 +10,7 @@
         <StackLayout Orientation="Horizontal">
             <StackLayout>
                 <Button x:Name="Item1" Text="BatteryDemo"/>
+                <Button x:Name="Item2" Text="QrSCannerDemo"/>
             </StackLayout>
         </StackLayout>
     </StackLayout>

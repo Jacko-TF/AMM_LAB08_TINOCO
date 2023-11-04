@@ -18,7 +18,10 @@ namespace AMM_LAB08_TINOCO
             {
                 await Navigation.PushAsync(new BatteryDemo());
             };
-
+            Item2.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new QrScannerDemo());
+            };
         }
     }
 }
